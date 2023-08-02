@@ -1,0 +1,17 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, input {
+  outline: none;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+button {
+  cursor: pointer;
+}
