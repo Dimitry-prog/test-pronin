@@ -1,0 +1,63 @@
+.dropdown {
+  position: relative;
+
+  &__trigger {
+    width: fit-content;
+    cursor: pointer;
+  }
+
+  &__content {
+    width: 260px;
+    position: absolute;
+    z-index: 1;
+
+    &_down-right {
+      top: 100%;
+      left: 0;
+    }
+
+    &_up-right {
+      bottom: 100%;
+      left: 0;
+    }
+
+    &_down-left {
+      top: 100%;
+      right: 0;
+    }
+
+    &_up-left {
+      bottom: 100%;
+      right: 0;
+    }
+  }
+}
+
+//.trigger {
+//  cursor: pointer;
+//}
+//
+//.content {
+//  position: absolute;
+//  z-index: 1;
+//}
+//
+//.down-right {
+//  top: 100%;
+//  left: 0;
+//}
+//
+//.up-right {
+//  bottom: 100%;
+//  left: 0;
+//}
+//
+//.down-left {
+//  top: 100%;
+//  right: 0;
+//}
+//
+//.up-left {
+//  bottom: 100%;
+//  right: 0;
+//}

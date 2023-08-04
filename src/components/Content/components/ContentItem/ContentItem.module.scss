@@ -1,0 +1,17 @@
+.item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  transition: .5s;
+
+  &:hover {
+    background-color: gray;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
